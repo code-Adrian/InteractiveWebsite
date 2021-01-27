@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<title>Web Assignment</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"> </script>
+<link rel="stylesheet"  href="css/Index.css">
+<link rel="stylesheet"  href="css/tabslide.css">
+
+</head>
+<body id="Body">
+<Header>
+
+
+
+  
+
+  
+<div class = "Together" id="Blur2">
+<div class="ui fluid container">
+
+	  <div class = "halfimg"> </div>
+	 </div>
+	
+  <div class="center aligned column">
+<nav class="ui menu">
+<div class="right menu">
+  <a href="index.html"  class=" item">Home</a>
+  <a href="RAM.html" class="item">Learn</a>
+  <a href="Test.html" class=" item">Test</a>
+  <a href="Reference.html" class="item">References</a>
+
+ </nav>
+   </div>
+  </div>
+   </div>
+
+
+
+</Header>
+
+<Main>
+<div class = "MainBorderText" id="Blur">
+<h1>Welcome to <u>PhoneWise</u></h1>
+<p>Educate yourself and find a personal device that suits you!</p>
+</div>
+
+
+<div class="disclaimer" id="remove">
+<div class="ui form segment">
+<h1>Important Disclaimer</h1>
+<p>This website was created for a college project. Information found on this website can be found from different websites or external sources. Reference page can be found containing
+original source links. <a href="Reference.html">Click here to view.</a>
+ </p>
+
+
+<button class="ui primary button" id="disclaimerbutton">
+  I comply and understand
+</button>
+</div>
+</div>
+
+
+ <div class="slide-out-div" id="Blur3">
+        <a class="handle" href="http://link-for-non-js-users">Content</a>
+        <h3>Contact me</h3>
+        <a href="20088308@gmail.com">20088308@mail.wit.ie</a><br /><br />
+        <p>Thanks you for visiting our website.</p>
+        <p>If you would like to send some feedback or questions about<br> the website please send a message to the provided email.</p>
+    </div>
+
+
+</Main>
+</body>
+
+
+
+<Footer>
+
+
+<div class ="Left" id="Blur4">
+<i class="huge blue book icon" ></i>
+<p id="centerText">Learn about phone components and their functionality.</p>
+</div>
+
+<div class ="Middle" id="Blur5">
+<i class="huge blue flask icon" ></i>
+<p id="centerText">Take a fast test to find your approximate suitable device.</p>
+
+</div>
+
+<div class ="Right" id="Blur6">
+<i class="huge blue download icon" ></i>
+<p id="centerText">Find out software for you're device.</p>
+</div>
+   
+
+
+
+
+</Footer>
+
+
+
+<script src="js/jquery.lightMouse.js"></script>
+<script src="js/jquery.tabslide.js"></script>
+
+
+
+
+    <script>
+         $(function(){
+             $('.slide-out-div').tabSlideOut({
+                 tabHandle: '.handle',                              
+                 pathToTabImage: 'images/contact_tab.gif',          
+                 imageHeight: '122px',                              
+                 imageWidth: '40px',                                  
+                 tabLocation: 'left',                              
+                 speed: 650,                                      
+                 action: 'click',                                 
+                 topPos: '200px',                                   
+                 fixedPosition: true                          
+             });
+         });
+		 
+		 
+
+
+         </script>
+
+<script>
+document.getElementById("Blur6").style.filter = "blur(6px)";
+document.getElementById("Blur5").style.filter = "blur(6px)";
+document.getElementById("Blur4").style.filter = "blur(6px)";
+document.getElementById("Blur3").style.filter = "blur(6px)";
+document.getElementById("Blur2").style.filter = "blur(6px)";
+document.getElementById("Blur").style.filter = "blur(6px)";
+  $('#disclaimerbutton').click(function() {
+  
+
+    
+    var element = document.getElementById("remove");
+    element.remove();
+
+document.getElementById("Blur6").style.filter = "blur(0px)";
+
+document.getElementById("Blur5").style.filter = "blur(0px)";
+
+document.getElementById("Blur4").style.filter = "blur(0px)";
+
+  document.getElementById("Blur3").style.filter = "blur(0px)"
+  ;
+ 
+document.getElementById("Blur2").style.filter = "blur(0px)";
+
+document.getElementById("Blur").style.filter = "blur(0px)";
+
+});
+
+
+</script>
+
+
+
+
+
+
+	<script>
+
+	$('#ghost').lightMouse({
+
+	couleur:'#FFFFFF'
+
+	});
+
+	</script>
+
+
+
+
+
+
+

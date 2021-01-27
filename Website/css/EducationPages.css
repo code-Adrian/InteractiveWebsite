@@ -1,0 +1,354 @@
+.Container .halfimg{
+		background-image: url("../images/halfpage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+display: flex;
+flex-grow: 1;
+padding-bottom: 100vh;
+   top: 0em;
+opacity: 0.85;
+	filter: blur(10px);
+	 z-index: -1;
+    position: absolute;
+
+    width: 100%;
+	
+}
+
+
+
+.NavigationLeft{
+	
+	overflow: auto;
+background-color: rgba(30,30,30,0.2);
+	color: white;
+  font-weight: bold;
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  border-top: 1px solid #0FFFFF;
+  padding-bottom: 0em;
+ position: absolute;
+  top: 5.5vh;
+  left: 0.1vw;
+
+  
+  width: 20vw;
+  height: 94vh;
+
+  text-align: center;
+ border-radius: 14px;
+padding-right: 0.2vw;
+}
+
+
+.ContentBox{
+	background-color: rgba(30,30,30,0.5);
+	color: white;
+  font-weight: bold;
+  border: 0.5px solid #0FFFFF;
+
+  position: absolute;
+  top: 12vh;
+  left: 28.5vw;
+
+  z-index: 2;
+  width: 60vw;
+  height: 75vh;
+//  padding: 12vh;
+  text-align: center;
+ border-radius: 14px;
+}
+p{
+	font-family: Calibri;
+}
+.DetailBox{
+	background-color: rgba(30,30,30,0.3);
+	color: white;
+  font-weight: bold;
+ 
+  border-bottom: 0.5px solid #0FFFFF;
+position: absolute;
+  
+  top: 5vh;
+  left: 25vw;
+  width: 30vw;
+  height: 25vh;
+  
+  z-index: 2;
+
+  text-align: left;
+ border-radius: 8px;
+}
+.DetailBox h1{
+	margin-top: 1vh;
+	text-align: center;
+	font-size: 3.2vh;
+}
+.DetailBox p{
+	margin-top: 1vh;
+	text-align: left; 
+	padding-left: 0.8vw;
+	padding-right: 0.5vw;
+	padding-bottom: 2vw;
+	font-size:  1.65vh;
+	
+}
+
+.DetailBox2{
+	background-color: rgba(30,30,30,0.3);
+	color: white;
+  font-weight: bold;
+ 
+  border-top: 0.5px solid #0FFFFF;
+position: absolute;
+  
+  top: 36vh;
+  left: 3vw;
+  width: 25vw;
+  height: 34.5vh;
+  
+  z-index: 2;
+
+
+ border-radius: 8px;
+}
+.DetailBox2 h1{
+	margin-top: 1vh;
+	text-align: center;
+	font-size: 3.2vh;
+}
+.DetailBox2 p{
+	margin-top: 1vh;
+	text-align: left; 
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-bottom: 2vw;
+	font-size:  1.65vh;
+}
+
+.NavigationLeft h1{
+	
+	font-size: 2.5vh;
+line-height: 3vh;
+text-align: center!important;
+margin-bottom: 0.8vh;
+}
+
+.NavigationLeft h1:hover{
+	
+color: rgba(255, 212, 15,1);
+
+
+}
+.NavigationLeft p{
+
+	font-size: 1.52vh;
+
+}
+
+.Footer{
+	position: absolute;
+	bottom: 2vh;
+	left: 18vw;
+	width: 80vw;
+	font-size: 1.2vw!important;
+}
+
+#LeftArrow{
+	float: left;
+	color: black;
+}
+#RightArrow{
+	float: right;
+	color: black;
+}
+
+#RightArrow:hover{
+	color: rgba(0,255,255,0.45)!important;
+	cursor: pointer;
+}
+#LeftArrow:hover{
+	color: rgba(0,255,255,0.45)!important;
+	cursor: pointer;
+}
+
+
+
+#RAM{
+	padding-top: 2vh;
+  
+}
+
+NavigationLeft a{
+	text-align: center!important;
+color: white;
+}
+
+NavigationLeft a:hover{
+color: rgba(255,99,71,0.5);
+}
+
+
+.RAMPic{
+	width: 20vw;
+	float: left;
+	margin: 2.5em;
+}
+
+.RAMPic2{
+	margin-top: 36vh;
+float: right;
+margin-right: 5vw;
+	width: 24.5vw;
+	
+	
+}
+
+.SSDPic{
+	width: 19vw;
+	float: left;
+	margin: 2.5em;
+}
+.SSDPic2{
+	margin-top: 38vh;
+float: right;
+margin-right: 6vw;
+	width: 24vw;
+	
+}
+
+.CPUPic{
+	width: 27vw;
+	float: left;
+margin-right: 6vw;
+}
+.CPUPic2{
+	margin-top: 38vh;
+float: right;
+margin-right: 8vw;
+	width: 18vw;
+	
+}
+
+.CamPic{
+		width: 15vw;
+	float: left;
+margin: 2vw;
+margin-left: 5vw;
+}
+.CamPic2{
+		margin-top: 38vh;
+float: right;
+margin-right: 2vw;
+	width: 28vw;
+	height: 28vh;
+}
+
+.OSPic{
+		width: 15vw;
+	float: left;
+margin: 2vw;
+margin-left: 5vw;
+}
+.OSPic2{
+		margin-top: 38vh;
+float: right;
+margin-right: 8.5vw;
+	width: 17vw;
+	height: 30vh;
+}
+
+.BatPic{
+		width: 17vw;
+	float: left;
+margin: 1vw;
+margin-left: 5vw;
+}
+.BatPic2{
+		margin-top: 37vh;
+float: right;
+margin-right: 9.5vw;
+	width: 14vw;
+	height: 32vh;
+}
+
+.AppPic{
+		width: 15vw;
+	float: left;
+margin: 1vw;
+margin-left: 5vw;
+}
+.AppPic2{
+		margin-top: 36vh;
+float: right;
+margin-right: 8vw;
+	width: 17vw;
+	
+}
+
+
+
+.ContainerReference .halfimg{
+		background-image: url("../images/halfpage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+display: flex;
+flex-grow: 1;
+padding-bottom: 100vh;
+   top: 0em;
+opacity: 0.85;
+	filter: blur(15px);
+	 z-index: -1;
+    position: absolute;
+
+    width: 100%;
+	
+}
+
+.ContentBoxReference{
+	overflow: auto;
+	background-color: rgba(30,30,30,0.5);
+	color: white;
+  font-weight: bold;
+  border: 0.5px solid #0FFFFF;
+
+  position: absolute;
+  top: 12vh;
+  left: 9.75vw;
+
+  z-index: 2;
+  width: 80vw;
+  height: 75vh;
+//  padding: 12vh;
+  text-align: center;
+ border-radius: 14px;
+}
+
+.ContentBoxReference p,a{
+	text-align: left;
+	padding-left: 1vw;
+	font-size: 1.7vh;
+	
+}
+
+.ContentBoxReference a{
+	color: rgba(0,0,0,0.9);
+}
+mark{
+	background-color: rgba(0,255,255,0.35);
+}
+
+
+.space{
+	margin-left: 1vw;
+}
+
+#Paddingh1Reference{
+	margin-top: 1vh;
+}
+#Paddingh1Reference2{
+	margin-top: 1vh;
+	text-align: left;
+	font-size: 2.2vh;
+	margin-left: 1vw;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<title>Web Assignment</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"> </script>
+<link rel="stylesheet"  href="css/TestPage.css">
+<link rel="stylesheet"  href="css/Index.css">
+
+
+</head>
+<body onload="hideDisplay()" id="Body">
+<Header>
+
+
+
+  
+
+  
+<div class = "Together">
+	 
+	 
+	 
+  <div class="center aligned column">
+<nav class="ui menu">
+<div class="right menu">
+  <a href="index.html"  class=" item">Home</a>
+  <a href="RAM.html" class="item">Learn</a>
+  <a href="Test.html" class=" item">Test</a>
+  <a href="Reference.html" class="item">References</a>
+
+ 
+ </nav>
+   </div>
+  </div>
+   </div>
+
+
+
+</Header>
+
+<Main>
+
+<div class="ui fluid container">
+<p></p>
+
+<div class="Form">
+<div class="ui form segment">
+
+
+<h1>Try to find you're new suitable device!</h1>
+<hr>
+<p>Which brand do you prefer the most?</p>
+<hr>
+<p>Do you use you're phone for you're work environment?</p>
+<hr>
+<p>Do you care about the duration of the phone battery?</p>
+<hr>
+<p>Do you use you're phone camera frequently?</p>
+<hr>
+<p>Does you care about the phones memory?</p>
+<hr>
+<p>Considering a new phone, select a price range:</p>
+<hr>
+
+<select id="Q1" class="ui dropdown">
+  <option value="">choose</option>
+  <option id= "optionbold" value="">Samsung</option>
+  <option id= "optionbold" value="">Iphone</option>
+  <option id= "optionbold" value="">Huawei</option>
+</select>
+
+<select id="Q2" class="ui dropdown">
+  <option value="">choose</option>
+  <option id= "optionbold" value="">Yes</option>
+  <option id= "optionbold" value="">No</option>
+ 
+</select>
+
+<select id="Q3" class="ui dropdown">
+  <option value="">choose</option>
+  <option id= "optionbold" value="">Yes</option>
+  <option id= "optionbold" value="">No</option>
+</select>
+
+<select id="Q4" class="ui dropdown">
+  <option value="">choose</option>
+  <option id= "optionbold" value="">Often</option>
+  <option id= "optionbold" value="">Rarely</option>
+</select>
+
+<select id="Q5" class="ui dropdown">
+  <option value="">choose</option>
+  <option id= "optionbold" value="">Yes</option>
+  <option id= "optionbold" value="">No</option>
+</select>
+
+<select id="Q6" class="ui dropdown">
+  <option value="">choose</option>
+  <option id= "optionbold" value="">€100 - €500</option>
+  <option id= "optionbold" value="">€500 - €1000</option>
+
+</select>
+
+
+<button onClick="myDisplay()" class="ui primary button" id="TestPagebutton">
+ Check
+</button>
+
+</div>
+</div>
+</div>
+
+
+<div class="ui fluid container">
+<div class="Form2" id="Form2">
+<div class="ui form segment">
+ <img id="displayimg" src="./images/phones/default.png"></img>
+ 
+ <div class="FormWrite">
+ <h1 id="model">PhoneModel</h1>
+ <hr>
+<p id="description">Input Text Here.</p>
+
+</div>
+<h3 id ="Price">Price: </h3>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</Main>
+</body>
+
+
+
+<Footer>
+
+
+
+   
+
+
+
+
+</Footer>
+
+
+
+<script src="js/TestPage.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
